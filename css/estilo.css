@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Imagem dos prédidos */
+body{
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x;
+}
+
+#container{
+    width: 750px;
+    margin: 0 auto;
+    
+}
+
+/* Imagem do mapa */
+#topo{
+    height: 150px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+    
+}
+
+/* Imagem da logo */
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat center;
+}
+
+/* Barra de menu */
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul{
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#topo ul li{
+    float: left;
+}
+
+#topo ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul a:hover{
+    color: #69001d;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos
+
+{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+
+#conteudo{
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+/* Coluna Lateral */
+#lateral{
+    width: 180px;
+    float: left;
+}
+
+/* Coluna 1 (lat + col 1 + col 2) */
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 15px 20px;
+}
+
+/* Coluna 1 (lat + col 1) */
+#duas-colunas #primario{
+    width: 540px;
+    float: left;
+    margin: 0 15px 20px;
+ 
+}
+
+/* Coluna 1 (coluna única) */
+#uma-coluna #primario{
+    width: 270px;
+    float: left;
+    margin: 0 0px 20px 0;
+    
+}
+
+#secundario{
+    width: 270px;
+    float: left;
+    
+}
+
+/* Caixa */
+.caixa{
+    margin: 10px 0;
+    padding: 5px;
+    background: #F3F3F3 url(..//imagens/fundo-caixa.png);
+}
+
+/* Texto dentro da Caixa Colunas */
+h2{ 
+    font-size: 1em; /* Tamanho da fonte */
+    color: #fff;    /* Cor da fonte */
+    background: #294C71;    /* Cor de fundo da caixa */
+    padding: 5px;     /* Espaçamento */   
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+
+/* Rodapé */
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
