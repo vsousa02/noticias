@@ -136,6 +136,45 @@ h2{
     margin-top: 5px;
 }
 
+/* Menus Laterais */
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #F3F3F3;
+}
+
+/* Efeito HOVER com seta*/
+#lateral ul a:hover{
+    color: #A1A1A1;
+    padding-left: 20px;
+    background: #F9F9F9 url(..//imagens/marcador.png) no-repeat left center;
+}
+
+/* Formatando formulário */
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+    width: 150px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+/* Botão enviar */
+input.submit{
+    width: 80px;
+    color: #fff;
+    margin-top: 2.0px;
+    background-color: #B10333;
+    border: 2px solid #870529;
+}
 
 
 /* Rodapé */
